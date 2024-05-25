@@ -1,0 +1,20 @@
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 10px;
+  height: 10px;
+ }
+::-webkit-scrollbar-thumb {
+  background: #d8d3d3;
+  border-radius: 10px;
+ }
+
+.scrollHr::-webkit-scrollbar {
+  background: transparent !important;
+  height: 0px;
+  width: 0px;
+ }
+ .scrollHr::-webkit-scrollbar-thumb {
+  background: #f0ededda;
+  border-radius: 10px;
+ }

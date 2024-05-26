@@ -6,7 +6,7 @@ import { HiOutlineAdjustments } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <div className='bg-[] py-4 px-6'>
+    <div className='bg-[] py-4 px-5'>
       <div className="flex justify-between items-center text-white">
         <RiMenu2Fill size={32} />
         <div className="flex flex-col items-center">
@@ -26,10 +26,10 @@ const Navbar = () => {
             type="search" 
             name="search" 
             placeholder="Search tickets..."  
-            className="bg-white w-full h-[60px] px-5 rounded-xl text-sm focus:outline-none"
+            className="bg-white w-full h-[50px] px-5 rounded-lg text-sm focus:outline-none pr-14"
           />
-          <div className="absolute right-0 top-[10px] mr-4 p-2 rounded-lg bg-[#171766]">
-            <HiOutlineAdjustments size={25} className="text-white" />
+          <div className="absolute right-0 top-2 mr-3 p-2 rounded-lg bg-[#171766]">
+            <HiOutlineAdjustments size={18} className="text-white" />
           </div>
         </div>
       </div>

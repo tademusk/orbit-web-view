@@ -1,11 +1,11 @@
 
 ::-webkit-scrollbar {
-  background: transparent;
-  width: 10px;
-  height: 10px;
+  background: transparent !important;
+  height: 0px;
+  width: 0px;
  }
 ::-webkit-scrollbar-thumb {
-  background: #d8d3d3;
+  background: #f0ededda;
   border-radius: 10px;
  }
 
@@ -18,3 +18,7 @@
   background: #f0ededda;
   border-radius: 10px;
  }
+
+ /* .bottomnav a.active {
+    color: #171766;
+ } */
